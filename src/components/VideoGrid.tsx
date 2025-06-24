@@ -10,8 +10,31 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
   const [currentPlayingId, setCurrentPlayingId] = useState<string | null>(null);
   const videoRefs = useRef<{ [key: string]: HTMLIFrameElement | null }>({});
   const observerRef = useRef<IntersectionObserver | null>(null);
-
+  const imageContents = [
+     {
+      id: 'img2',
+      title: 'College Campus Tour',
+      description: 'Explore our beautiful campus with state-of-the-art facilities, well-equipped laboratories, and modern classrooms designed to provide the best learning environment for our students.',
+      category: 'Campus Life',
+      image: '/lovable-uploads/padma.png'
+    },
+    {
+      id: 'img1',
+      title: 'College Campus Tour',
+      description: 'Explore our beautiful campus with state-of-the-art facilities, well-equipped laboratories, and modern classrooms designed to provide the best learning environment for our students.',
+      category: 'Campus Life',
+      image: '/lovable-uploads/4ccc7f7c-5669-4a9c-9fea-01fea4519188.png'
+    }
+  ];
   const videos = [
+     {
+      id: '1095495803',
+      hash: '55eac0fa5a',
+      title: '10th Mathematics Part 1',
+      description: 'Complete mathematical concepts and problem-solving techniques for 10th standard students. This comprehensive lesson covers fundamental topics with detailed explanations and practical examples.',
+      category: 'Mathematics',
+      thumbnail: 'https://vumbnail.com/1095495803.jpg'
+    },
     {
       id: '1095495803',
       hash: '55eac0fa5a',
@@ -30,15 +53,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
     }
   ];
 
-  const imageContents = [
-    {
-      id: 'img1',
-      title: 'College Campus Tour',
-      description: 'Explore our beautiful campus with state-of-the-art facilities, well-equipped laboratories, and modern classrooms designed to provide the best learning environment for our students.',
-      category: 'Campus Life',
-      image: '/lovable-uploads/4ccc7f7c-5669-4a9c-9fea-01fea4519188.png'
-    }
-  ];
+
 
   const filteredVideos = activeTab === 'All' 
     ? videos 
