@@ -14,7 +14,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
      {
       id: 'img2',
       title: 'College Campus Tour',
-      description: 'Explore our beautiful campus with state-of-the-art facilities, well-equipped laboratories, and modern classrooms designed to provide the best learning environment for our students.',
+      description: 'డియర్ స్టూడెంట్స్ ఇంటర్ కంప్లీట్ అయిన విద్యార్థినీ విద్యార్థులు డిగ్రీలో అడ్మిషన్ పొందటానికి చివరి తేదీ 25-06-2025..',
       category: 'Campus Life',
       image: '/lovable-uploads/padma.png'
     },
