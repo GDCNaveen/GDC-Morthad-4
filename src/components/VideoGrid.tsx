@@ -27,15 +27,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
     }
   ];
   const videos = [
-     {
-      id: '1095495803',
-      hash: '55eac0fa5a',
-      title: '10th Mathematics Part 1',
-      description: 'Complete mathematical concepts and problem-solving techniques for 10th standard students. This comprehensive lesson covers fundamental topics with detailed explanations and practical examples.',
-      category: 'Mathematics',
-      thumbnail: 'https://vumbnail.com/1095495803.jpg'
-    },
-    {
+      {
       id: '1095495803',
       hash: '55eac0fa5a',
       title: '10th Mathematics Part 1',
