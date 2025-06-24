@@ -123,7 +123,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
 
           {/* Demo Credentials */}
           <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-            <p className="text-xs text-gray-600 text-center mb-2">Demo Credentials:</p>
+            {/*<p className="text-xs text-gray-600 text-center mb-2">Demo Credentials:</p>*/}
             <div className="text-xs text-gray-700 space-y-1">
               <div>Username: Naveen, Password: 123</div>
               <div>Username: Shivaiah, Password: 108</div>
