@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
             <div className="flex items-start space-x-4">
               <div className="p-2">
                 <img 
-                  src="/lovable-uploads/4ccc7f7c-5669-4a9c-9fea-01fea4519188.png" 
+                  src="/lovable-uploads/naveen.png" 
                   alt="Government Degree College Logo"
                   className="h-12 w-12 object-contain rounded-full border-2 border-gray-600"
                 />
